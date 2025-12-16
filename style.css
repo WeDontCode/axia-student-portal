@@ -1,3 +1,4 @@
+/* Basic styling for student portal */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -17,6 +18,49 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* Login Page Styles */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 /* Dashboard Styles */
